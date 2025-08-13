@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f8fb;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 30px;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    font-size: 20px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: green;
+}
+.logo img {
+    height: 35px;
+    margin-right: 10px;
+}
+.lang-btns button {
+    margin-left: 12px;
+    padding: 8px 14px;
+    border: none;
+    background: #f0f0f0;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+h1 {
+    margin-top: 50px;
+    font-size: 2.8em;
+}
+p {
+    color: gray;
+    font-size: 1.2em;
+}
+.choose-role {
+    font-size: 1.6em;
+    margin-top: 20px;
+}
+
+.roles {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.card {
+    background: white;
+    width: 400px;
+    height: 300px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+.icon {
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+.admin {
+    color: #007bff;
+}
+.farmer {
+    color: #28a745;
+}
+.card h4 {
+    font-size: 1.4em;
+    margin-bottom: 8px;
+}
+.card p {
+    color: gray;
+    font-size: 1.6em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
