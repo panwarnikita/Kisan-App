@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Login</title>
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+<style>* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #e0f2f1, #f1f8e9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.login-box {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 460px;
+}
+
+.login-icon {
+    width: 60px;
+    height: 60px;
+    background: #1e6ff3;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 1rem;
+    font-size: 1.5rem;
+}
+
+.login-box h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+}
+
+.login-box p {
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+}
+
+label {
+    font-weight: 500;
+    display: block;
+    text-align: left;
+    margin: 0.5rem 0 0.3rem;
+}
+
+.input-box {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 0.6rem;
+    margin-bottom: 1rem;
+    background: #fff;
+}
+
+.input-box i {
+    color: #777;
+    margin-right: 0.5rem;
+}
+
+.input-box input {
+    border: none;
+    outline: none;
+    flex: 1;
+    font-size: 0.95rem;
+}
+
+button {
+    width: 100%;
+    padding: 0.8rem;
+    background: #1e6ff3;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #155ad1;
+}
+
+.demo-credentials {
+    background: #f9f9f9;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 8px;
+    font-size: 0.8rem;
+    color: #444;
+}
+
+.demo-credentials strong {
+    display: block;
+    margin-bottom: 0.4rem;
+    color: #333;
+}
+
+</style>
+
+
+<div class="login-container">
+    <div class="login-box">
+        <div class="login-icon">
+            <i class="fa-solid fa-user-check"></i>
+        </div>
+        <h1>Admin Login</h1>
+        <p>Access admin panel and manage portal</p>
+
+        <form>
+            <label>Email</label>
+            <div class="input-box">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="email" placeholder="admin@kisan.com" required>
+            </div>
+
+            <label>Password</label>
+            <div class="input-box">
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" placeholder="Enter your password" required>
+            </div>
+
+            <button type="submit">Login</button>
+        </form>
+
+          <div class="demo-credentials">
+            <strong>Demo Credentials:</strong><br>
+            Email: admin@kisan.com <br>
+            Password: password
+        </div>
+    
+    </div>
+</div>
+
+</body>
+</html>
+
